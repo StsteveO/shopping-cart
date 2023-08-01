@@ -322,7 +322,7 @@ button {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 10rem;
+  width: 12rem;
   height: auto;
   border: 2px solid black;
   border-radius: 0.5rem;
