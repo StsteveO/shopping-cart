@@ -2,16 +2,16 @@
 import { useState, useEffect } from "react";
 //eslint-disable-next-line
 import { Link } from "react-router-dom";
+import CardsOrganizer from "./CardsOrganizer";
 
-export default function Mens() {
+//eslint-disable-next-line
+export default function Mens({list, updateCart}) {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="test">Mens Content</div>
-      <Link to="/mainPageFrame/:">MainFramePage</Link>
-      <br />
-      <Link to="/mainPageFrame/womens">Womens Page</Link>
+      <h1 className="mens-page">{`Men's Clothing`}</h1>
+      <CardsOrganizer list={list} updateCart={updateCart} />
     </>
   );
 }
