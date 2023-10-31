@@ -1,4 +1,5 @@
 # shopping-cart
+[Click here to got to live site](https://ststeveo-shoppingcart.netlify.app/)
 
 ### Technologies Used: 
 -Utilizes React and Vite. 
